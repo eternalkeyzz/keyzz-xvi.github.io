@@ -4,31 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>NATE - Nitrox Advanced Technology Engines</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1f1f;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff7f50;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        button {
+            padding: 15px 30px;
+            background-color: #ff7f50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>NATE</h1>
-        <p>Nitrox Advanced Technology Engines</p>
+        <div class="container">
+            <h1>NATE</h1>
+            <p>Nitrox Advanced Technology Engines</p>
+        </div>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#download">Download</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <section id="about">
+    <section id="about" class="container">
         <h2>About NATE</h2>
         <p>Your introduction to the powerful world of Nitrox Advanced Technology Engines.</p>
     </section>
 
-    <section id="features">
+    <section id="features" class="container">
         <h2>Features</h2>
         <ul>
             <li>High-performance rendering</li>
@@ -38,23 +115,23 @@
         </ul>
     </section>
 
-    <section id="download">
+    <section id="download" class="container">
         <h2>Download</h2>
         <p>Get started with NATE today!</p>
         <a href="#download-link" class="button">Download Now</a>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="container">
         <h2>Contact Us</h2>
         <p>Have questions or feedback? Reach out to us.</p>
         <a href="mailto:info@nateengine.com">info@nateengine.com</a>
     </section>
 
     <footer>
-        <p>&copy; 2024 NATE. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 NATE. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
